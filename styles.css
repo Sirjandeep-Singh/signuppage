@@ -1,0 +1,128 @@
+@font-face {
+    font-family: norse;
+    src: url(./fonts/Norse-Bold.otf);
+}
+:root,body{
+    margin : 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    display: flex;
+}
+.hero h2{
+    overflow-wrap: break-word;
+    width: max(80%, 800px);
+    padding: 0px 50px;
+}
+div.left{
+    height: 100vh;
+    width: max(30vw,350px);
+    background-image: url(./photo-1585202900225-6d3ac20a6962.avif);
+    background-size: 150%;
+    margin-right: 0px ;
+}
+.opaque-odin{
+    box-sizing: border-box;
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: norse, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 140px;
+    margin: 0px;
+    background-color: rgb(0,0,0,0.5);
+    height: 250px;
+}
+.credits{
+    width: max(30vw,350px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    font-size: 20px;
+}
+.credits a{
+    color: white;
+    padding: 0px 4px;
+}
+.odin-text{
+    flex-shrink: 3;
+}
+div.right{
+    box-sizing: border-box;
+    height: 100vh;
+    width: max(70vw,350px);
+    background-color: #f1f1f1;
+    padding: 200px 0px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: min(750px,90%);
+}
+.container-y{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: inherit;
+    box-shadow: 0.3rem 0.3rem 0.6rem rgb(0 0 0 / 30%);
+    margin: 0px;
+    padding: 50px;
+    background-color: white;
+}
+.card h2{
+    padding: 0px;
+    margin-top: 0px;
+}
+.submit{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    width: 250px;
+    height: 25px;
+    font-size: 18px;
+    border: solid 1px #E5E7EB;
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+input:user-invalid{
+    border: solid 2px red;
+}
+input:focus{
+    border: solid 2px rgb(7, 7, 153);
+    outline: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.521);
+    
+}
+.submit span button{
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    border: solid 1px #E5E7EB;
+    border-radius: 8px;
+    color: white;
+    background-color: #596D48;
+}
+.submit span button:hover{
+    cursor: pointer;
+}
+.login{
+    padding: 0px 4px;
+    text-decoration: none;
+    color: #596D48;
+}
+.login:hover{
+    cursor: pointer;
+}
