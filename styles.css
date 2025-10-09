@@ -27,7 +27,7 @@ div.left{
 .opaque-odin{
     box-sizing: border-box;
     position: relative;
-    top: 180px;
+    top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ div.right{
     height: 100vh;
     width: max(70vw,350px);
     background-color: #f1f1f1;
-    padding: 100px 0px;
+    padding: 95px 0px;
 }
 .form{
     display: flex;
@@ -76,11 +76,11 @@ div.right{
     width: inherit;
     box-shadow: 0.3rem 0.3rem 0.6rem rgb(0 0 0 / 30%);
     margin: 0px;
-    padding: 50px;
+    padding: 20px 50px;
     background-color: white;
 }
 .card h2{
-    padding: 0px;
+    padding: 10px 0px;
     margin-top: 0px;
 }
 .submit{
